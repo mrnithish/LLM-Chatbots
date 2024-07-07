@@ -1,0 +1,6 @@
+## If Execution policy error
+
+Set-ExecutionPolicy RemoteSigned -Scope CurrentUser
+
+## Env
+.venv\Scripts\activate
