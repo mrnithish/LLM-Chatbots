@@ -9,7 +9,7 @@ from langchain.document_loaders import PyMuPDFLoader
 
 import os
 
-os.environ["HUGGINGFACEHUB_API_TOKEN"] = "Your APi Token"
+os.environ["HUGGINGFACEHUB_API_TOKEN"] = "YOUR_API_KEY"
 
 with gr.Blocks() as demo:
     pdf_file = gr.File()
